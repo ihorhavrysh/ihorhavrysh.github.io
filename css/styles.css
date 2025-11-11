@@ -1,0 +1,26 @@
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+.header {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/background-hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #ddd;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
