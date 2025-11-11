@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="" />
+    <link rel="icon" href="img/favicon.ico" />
     <title>Ihor Havrysh</title>
   </head>
   <body>
@@ -405,10 +405,11 @@
             </ul>
           </div>
           <div class="col-md-5">
-            <form>
+            <form name="contact" netlify>
               <div class="mb-4">
                 <input
                   type="text"
+                  name="name"
                   class="form-control bg-light"
                   placeholder="Enter name"
                 />
@@ -416,6 +417,7 @@
               <div class="mb-4">
                 <input
                   type="email"
+                  name="email"
                   class="form-control bg-light"
                   placeholder="Enter email"
                 />
@@ -423,13 +425,14 @@
               <div class="mb-4">
                 <input
                   type="text"
+                  name="phone"
                   class="form-control bg-light"
                   placeholder="Enter phone"
                 />
               </div>
               <div class="mb-4">
                 <select
-                  name="interested"
+                  name="contact by"
                   id="interested"
                   class="form-control bg-light"
                 >
